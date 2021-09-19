@@ -1,0 +1,55 @@
+.contacts .container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.91;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts {
+  display: flex;
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.contacts-list .item:not(:last-child) {
+  margin-bottom: 9px;
+  padding: 0px;
+}
+
+.container .contacts-list {
+  margin-top: 9px;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.contacts-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contacts-mail,
+.contacts-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
