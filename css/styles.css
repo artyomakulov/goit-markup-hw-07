@@ -38,9 +38,9 @@ ul {
 
 .link {
   text-decoration: none;
-} */
+}
 
-/* .section {
+.section {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -51,16 +51,16 @@ ul {
 }
 .section:last-child {
   background-color: #f5f4fa;
-} */
+}
 
-/* .container {
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
-} */
+}
 
-/* img {
+img {
   display: block;
 }
 
