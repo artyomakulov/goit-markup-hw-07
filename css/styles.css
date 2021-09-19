@@ -60,7 +60,7 @@ ul {
   margin: auto;
 } */
 
-img {
+/* img {
   display: block;
 }
 
@@ -72,7 +72,7 @@ a,
 button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* header */
 
@@ -804,7 +804,7 @@ button {
   transform: translate(-50%, -200%);
 } */
 
-.modal {
+/* .modal {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -994,4 +994,4 @@ button {
   letter-spacing: 0.06em;
   font-family: inherit;
   cursor: pointer;
-}
+} */

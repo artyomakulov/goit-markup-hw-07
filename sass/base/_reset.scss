@@ -4,8 +4,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-/* утилиты */
-
 p,
 h1,
 h2,
@@ -32,4 +30,18 @@ ul {
 
 .link {
   text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+button {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
