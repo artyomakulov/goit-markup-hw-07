@@ -144,6 +144,11 @@ button {
   text-decoration: none;
 }
 
+.web .link.current {
+  position: relative;
+  color: var(--accent-color);
+}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -163,7 +168,7 @@ button {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: var(--accent-cl);
+  background: var(--accent-color);
   border-radius: 2px;
 }
 
