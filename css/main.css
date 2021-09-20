@@ -90,7 +90,7 @@ button {
   border-bottom: 1px solid #ececec;
 }
 
-.header-logo {
+.header__logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -108,15 +108,15 @@ button {
   margin-left: 93px;
 }
 
-.header-list .header-item {
+.header-list .header-list__item {
   margin-right: 40px;
 }
 
-.header-list .header-item:last-child {
+.header-list .header-list__item:last-child {
   margin-right: 0px;
 }
 
-.header-list .header-link {
+.header-list .header-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -149,7 +149,7 @@ button {
   color: var(--accent-color);
 }
 
-.header-link {
+.header-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -157,18 +157,18 @@ button {
   color: var(--title-text-color);
 }
 
-.header-link:hover, .header-link:focus {
+.header-list__link:hover, .header-list__link:focus {
   color: var(--accent-color);
 }
 
-.header-link::after {
+.header-list__link::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: var(--accent-color);
+  background: var(--accent-cl);
   border-radius: 2px;
 }
 
@@ -193,11 +193,11 @@ button {
   margin-left: auto;
 }
 
-.header-contacts .header-item:last-child {
+.header-contacts .header-list__item:last-child {
   margin-left: 50px;
 }
 
-.header-contacts .header-item {
+.header-contacts .header-list__item {
   display: block;
 }
 
