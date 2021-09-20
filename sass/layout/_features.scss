@@ -1,24 +1,24 @@
-.feature-logo.icon-antenna::before {
+.feature__logo.icon-antenna::before {
   background-image: url(../svgimg/antenna.svg);
 }
 
-.feature-logo.icon-clock::before {
+.feature__logo.icon-clock::before {
   background-image: url(../svgimg/clock.svg);
 }
 
-.feature-logo.icon-diagram::before {
+.feature__logo.icon-diagram::before {
   background-image: url(../svgimg/diagram.svg);
 }
 
-.feature-logo.icon-astronaut::before {
+.feature__logo.icon-astronaut::before {
   background-image: url(../svgimg/astronaut.svg);
 }
 
-.container-features {
+.features {
   padding-bottom: 0;
 }
 
-.features {
+.features__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -29,16 +29,16 @@
   margin-bottom: 10px;
 }
 
-.feature-list {
+.feature__list {
   display: flex;
   flex-wrap: wrap;
   & .item {
     width: 270px;
   }
-  & .feature-logo:not(:last-child) {
+  & .feature__logo:not(:last-child) {
     margin-right: 30px;
   }
-  & .feature-logo::before {
+  & .feature__logo::before {
     content: "";
     display: block;
     height: 120px;
@@ -51,7 +51,7 @@
   }
 }
 
-.features-text {
+.features__text {
   width: 270px;
   font-weight: normal;
   font-size: 14px;
