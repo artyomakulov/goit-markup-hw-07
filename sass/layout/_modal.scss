@@ -1,3 +1,25 @@
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 250ms ease;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -200%);
+}
+
 .modal {
   position: absolute;
   display: flex;
@@ -26,22 +48,20 @@
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+  &:hover .close-icon-svg,
+  &:focus .close-icon-svg {
+    fill: var(--accent-color);
+  }
 }
 
 .close-icon-svg {
   width: 11px;
   height: 11px;
   fill: #000;
-}
-
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-  cursor: pointer;
-}
-
-.modal-close-btn:hover .close-icon-svg,
-.modal-close-btn:focus .close-icon-svg {
-  fill: var(--accent-color);
 }
 
 .modal-form {
@@ -84,20 +104,18 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
   cursor: pointer;
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal-textarea {
   display: block;
   resize: none;
   padding: 12px 16px;
-}
-
-.modal-input::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-input:focus {
-  border-color: var(--accent-color);
 }
 
 .modal-input-svg {

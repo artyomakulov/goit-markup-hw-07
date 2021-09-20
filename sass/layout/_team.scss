@@ -33,10 +33,10 @@
 .team-list {
   display: flex;
   flex-wrap: wrap;
-}
-.team-list .link {
-  flex-direction: row;
-}
-.team-list .link:not(:last-child) {
-  margin-right: 30px;
+  & .link {
+    flex-direction: row;
+  }
+  & .link:not(:last-child) {
+    margin-right: 30px;
+  }
 }

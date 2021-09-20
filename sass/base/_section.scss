@@ -6,7 +6,7 @@
   color: var(--title-text-color);
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.section:last-child {
-  background-color: #f5f4fa;
+  &:last-child {
+    background-color: #f5f4fa;
+  }
 }

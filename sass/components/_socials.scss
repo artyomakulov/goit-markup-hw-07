@@ -14,11 +14,10 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-}
-
-.socials-link:hover,
-.socials-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .socials-logo {

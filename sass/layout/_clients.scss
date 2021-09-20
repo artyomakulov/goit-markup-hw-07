@@ -18,6 +18,10 @@
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 3%;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .clients-item:not(:last-child) {
@@ -27,15 +31,10 @@
 .clients-icon-link {
   display: flex;
   padding: 16px 32px;
-}
-.clients-item:hover,
-.clients-item:focus {
-  border-color: var(--accent-color);
-}
-
-.clients-icon-link:hover .clients-icon-logo,
-.clients-icon-link:focus .clients-icon-logo {
-  fill: var(--accent-color);
+  &:hover .clients-icon-logo,
+  &:focus .clients-icon-logo {
+    fill: var(--accent-color);
+  }
 }
 
 .clients-icon-logo {

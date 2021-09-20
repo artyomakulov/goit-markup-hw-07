@@ -16,8 +16,8 @@
   color: var(--main-text-color);
   display: flex;
   align-items: center;
-}
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
