@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #afb1b8;
 }
 
 .clients-list-item {
@@ -22,10 +23,9 @@
   &:focus {
     border-color: var(--accent-color);
   }
-}
-
-.clients-list-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-icon-link {
@@ -35,8 +35,4 @@
   &:focus .clients-icon-logo {
     fill: var(--accent-color);
   }
-}
-
-.clients-icon-logo {
-  fill: #afb1b8;
 }
